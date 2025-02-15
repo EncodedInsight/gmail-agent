@@ -1,0 +1,23 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+        "GOOGLE_CLIENT_ID": "your-google-client-id",
+        "GOOGLE_CLIENT_SECRET": "your-google-client-secret",
+        "OPENAI_API_KEY": "your-openai-api-key",
+        "AZURE_OPENAI_ENDPOINT": "your-azure-openai-endpoint",
+        "AZURE_OPENAI_KEY": "your-azure-openai-key",
+        "OPENAI_MODEL_NAME": "gpt-4o-mini",
+        "OPENAI_API_TIMEOUT_SECONDS": "10",
+        "APPLICATION_NAME": "Gmail Agent",
+        "GMAIL_PUBSUB_TOPIC": "projects/your-project-id/topics/your-topic-name",
+        "BLOB_CONTAINER_NAME": "your-blob-container-name",
+        "GOOGLE_REDIRECT_URI": "http://localhost:7071/api/GmailAgentRedirectHandler",
+        "USER_EMAIL": "your-email@example.com"
+    },
+    "Host": {
+        "LocalHttpPort": 7071,
+        "CORS": "*"
+    }
+} 
